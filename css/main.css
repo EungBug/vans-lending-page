@@ -24,6 +24,13 @@ img {
   height: 1024px;
 }
 
+.container .inner {
+  height: 886px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .title-bar {
   height: 138px;
   color: #fff;
@@ -38,6 +45,13 @@ img {
 .circle {
   border-radius: 50%;
   background: radial-gradient(circle, #3e3d44, #2f3034);
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 42px;
 }
 
 /* Header */
@@ -162,13 +176,15 @@ header ul li a:hover {
 }
 
 /* Sellers */
+.sellers .inner {
+  background-image: url('../images/money.png');
+}
+
 .sellers .product-container {
-  height: 886px;
   box-sizing: border-box;
   display: flex;
   padding: 70px 90px 53px;
   justify-content: space-between;
-  background-image: url('../images/money.png');
 }
 
 .sellers .products {
@@ -205,4 +221,79 @@ header ul li a:hover {
   height: auto;
   max-width: 303px;
   max-height: 285px;
+}
+
+/* Delivery */
+.delivery .inner {
+  background-image: url('../images/fast-delivery.png');
+}
+
+.delivery .text-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 51px 28px 0 75px;
+}
+
+.minsk,
+.belaus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.minsk h1,
+.belaus h1 {
+  margin-bottom: 60px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76.8px;
+  color: #fff;
+}
+
+.description h2 {
+  width: 119px;
+  height: 116px;
+  color: #fff;
+  font-size: 96px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 115px;
+  border-radius: 50%;
+}
+
+.description p {
+  color: #fff;
+  font-size: 36px;
+  line-height: 43.2px;
+  margin-left: 22px;
+}
+
+.description1 > h2 {
+  background: radial-gradient(50% 50% at 50% 50%, #36ff24 0%, rgba(54, 255, 36, 0) 100%);
+}
+
+.description2 > h2 {
+  background: radial-gradient(50% 50% at 50% 50%, #2a2941 0%, rgba(151, 36, 241, 0) 100%);
+}
+
+.description3 > h2 {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #5c5a5a 0%,
+    rgba(71, 68, 68, 0.0593751) 94.58%,
+    rgba(129, 83, 83, 0.0137021) 99.99%,
+    rgba(70, 67, 67, 0) 100%
+  );
+}
+
+.description4 > h2 {
+  background: radial-gradient(50% 50% at 50% 50%, #ff11d9 0%, rgba(255, 40, 246, 0) 100%);
+}
+
+.description5 > h2 {
+  background: radial-gradient(50% 50% at 50% 50%, #ebff04 0%, rgba(255, 230, 0, 0) 100%);
+}
+
+.description6 > h2 {
+  background: radial-gradient(50% 50% at 50% 50%, #41cffc 0%, rgba(0, 255, 224, 0) 100%);
 }
