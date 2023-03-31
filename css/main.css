@@ -20,6 +20,21 @@ img {
   position: relative;
 }
 
+.container {
+  height: 1024px;
+}
+
+.title-bar {
+  height: 138px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #373737;
+}
+
 .circle {
   border-radius: 50%;
   background: radial-gradient(circle, #3e3d44, #2f3034);
@@ -144,4 +159,50 @@ header ul li a:hover {
   position: absolute;
   top: 11px;
   left: 53px;
+}
+
+/* Sellers */
+.sellers .product-container {
+  height: 886px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 70px 90px 53px;
+  justify-content: space-between;
+  background-image: url('../images/money.png');
+}
+
+.sellers .products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sellers .product.product--center {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.sellers .circle {
+  width: 303px;
+  height: 285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sellers .product p {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.sellers .product img {
+  width: auto;
+  height: auto;
+  max-width: 303px;
+  max-height: 285px;
 }
