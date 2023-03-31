@@ -1,0 +1,147 @@
+/* COMMON */
+body {
+  background-color: #1b1a1a;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.inner {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  background: radial-gradient(circle, #3e3d44, #2f3034);
+}
+
+/* Header */
+header {
+  width: 100%;
+  margin-top: 26px;
+  background-color: #373737;
+  z-index: 1;
+}
+
+header > .inner {
+  height: 118px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header .logo {
+  margin: 34px 70px 24px 72px;
+}
+
+header .cart {
+  margin-right: 27px;
+  transition: 0.4s;
+}
+
+header .cart:hover {
+  transform: scale(1.2);
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  padding-bottom: 27px;
+}
+
+header ul li {
+  padding-bottom: 7px;
+  flex-grow: 1;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px;
+  transition: 0.4s;
+}
+
+header ul li a:hover {
+  text-shadow: 4px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Home */
+.home .inner {
+  height: 880px;
+  overflow: hidden;
+}
+
+.home .fire {
+  width: 857px;
+  height: 1064px;
+  background-image: url('../images/fire.png');
+  position: absolute;
+  top: -134px;
+  left: 0px;
+}
+
+.home .infos {
+  position: absolute;
+  top: 234px;
+  left: 70px;
+  color: #fff;
+}
+
+.home h1 {
+  font-size: 48px;
+  line-height: 75.55px;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 700;
+}
+
+.home p {
+  width: 545px;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+}
+
+.home a.btn {
+  width: 233px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 36px;
+  border: 2px solid #fff;
+  border-radius: 69px;
+  margin-top: 86px;
+  transition: 0.5s;
+}
+
+.home a.btn:hover {
+  box-shadow: 4px 10px 20px rgba(255, 255, 255, 0.5);
+}
+
+.home .product {
+  width: 697.81px;
+  height: 656.53px;
+  position: absolute;
+  right: 41px;
+  top: 84px;
+}
+
+.home .product img {
+  position: absolute;
+  top: 11px;
+  left: 53px;
+}
